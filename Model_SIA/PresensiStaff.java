@@ -1,6 +1,8 @@
+package Model_SIA;
+
 import java.time.LocalDate;
 
-class PresensiStaff extends Presensi{
+public class PresensiStaff extends Presensi{
 	private double jam_presensi;
 
 	public PresensiStaff(LocalDate tanggal_presensi, Status_Presensi status, double jam_presensi){

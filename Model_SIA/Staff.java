@@ -1,3 +1,5 @@
+package Model_SIA;
+
 public class Staff extends User{
     private String NIK;
 

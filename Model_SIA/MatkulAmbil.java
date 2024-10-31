@@ -1,6 +1,8 @@
+package Model_SIA;
+
 import java.util.*;
 
-public class MatkulAmbil {
+public class MatkulAmbil{
     private MataKuliah mataKuliah;
     private List<Presensi> listPresensi = new ArrayList<Presensi>();
     private double n1, n2, n3;
@@ -41,4 +43,6 @@ public class MatkulAmbil {
         return mataKuliah + "Presensi: " + listPresensi + 
                "\nNilai: [" + n1 + ", " + n2 + ", " + n3 + "]";
     }
+    
+    
 }

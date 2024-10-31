@@ -1,3 +1,5 @@
+package Model_SIA;
+
 abstract public class User{
 	private String nama, alamat, TTL, noTelp;
 

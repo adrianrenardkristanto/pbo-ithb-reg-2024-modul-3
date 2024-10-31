@@ -1,4 +1,6 @@
-class MataKuliah{
+package Model_SIA;
+
+public class MataKuliah{
 	private String kode_matkul, sks, nama_matkul;
 	
 	public MataKuliah(String kode_matkul, String sks, String nama_matkul){

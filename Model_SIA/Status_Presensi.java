@@ -1,3 +1,5 @@
+package Model_SIA;
+
 public enum Status_Presensi{
 	HADIR(1), ALPHA(0);
 

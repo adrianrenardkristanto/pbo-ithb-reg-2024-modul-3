@@ -1,6 +1,7 @@
+package Model_SIA;
 import java.util.*;
 
-class MatkulAjar extends MataKuliah{
+public class MatkulAjar extends MataKuliah{
     private MataKuliah mataKuliah;
     private List<PresensiStaff> presensiStaffList = new ArrayList<PresensiStaff>();
     public MataKuliah getMataKuliah() {

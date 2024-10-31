@@ -1,3 +1,4 @@
+package Model_SIA;
 import java.util.*;
 
 public class Dosen extends Staff{

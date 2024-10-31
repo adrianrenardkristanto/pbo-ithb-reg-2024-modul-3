@@ -1,3 +1,5 @@
+package Model_SIA;
+
 public class Dosen_Honorer extends Dosen{
 	private double honorerPerSKS;
 	

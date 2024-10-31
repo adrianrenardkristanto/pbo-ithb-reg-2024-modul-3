@@ -1,5 +1,8 @@
+package Model_SIA;
+
 public class Mahasiswa extends User{
 	private String NIM, jurusan;
+    private double rata2;
 	
     public Mahasiswa(String nama, String alamat, String TTL, String noTelp, String NIM, String jurusan){
         super(nama, alamat, TTL, noTelp);
@@ -19,7 +22,12 @@ public class Mahasiswa extends User{
     public void setJurusan(String jurusan) {
         this.jurusan = jurusan;
     }
-
+    public double getRata2() {
+        return rata2;
+    }
+    public void setRata2(double rata2) {
+        this.rata2 = rata2;
+    }
     @Override
     public String toString(){
         return super.toString() + "NIM: " + NIM + "\nJurusan: " + jurusan+"\n";

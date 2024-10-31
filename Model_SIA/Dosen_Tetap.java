@@ -1,3 +1,5 @@
+package Model_SIA;
+
 public class Dosen_Tetap extends Dosen{
 	private double gaji;
 

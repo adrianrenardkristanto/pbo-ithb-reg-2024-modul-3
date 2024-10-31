@@ -1,3 +1,5 @@
+package Model_SIA;
+
 public class Mahasiswa_Doktor extends Mahasiswa{
     private String judulPenelitianDisertasi;
     private double n1, n2, n3;

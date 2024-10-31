@@ -1,4 +1,6 @@
-class MataKuliah_Pilihan extends MataKuliah{
+package Model_SIA;
+
+public class MataKuliah_Pilihan extends MataKuliah{
 	private int jumlah_Min_Mahasiswa;
 	
 	public MataKuliah_Pilihan(String kode_matkul, String sks, String nama_matkul, int jumlah_Min_Mahasiswa){
